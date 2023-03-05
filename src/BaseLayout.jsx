@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import Members from "./Movies";
-import Movies from "./Members";
+import Members from "./Members";
+import Movies from "./Movies";
 import NoPage from "./NoPage";
 export default class BaseLayout extends Component {
   render() {
