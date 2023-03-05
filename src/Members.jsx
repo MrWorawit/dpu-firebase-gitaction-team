@@ -4,9 +4,8 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Card from "react-bootstrap/Card";
 import Table from "react-bootstrap/Table";
-import Common from "./common";
 import data from "./member.json";
-const BASE_URL = Common.API_URL;
+
 export default class report extends Component {
   state = {
     members: [],
